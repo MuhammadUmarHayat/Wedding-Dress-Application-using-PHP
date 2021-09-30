@@ -1,0 +1,3 @@
+select count(*) from users WHERE usertype='customer'
+select count(*) from books
+Kaleem.nadeem@gmail.com

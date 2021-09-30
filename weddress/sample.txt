@@ -1,0 +1,35 @@
+<?php include 'config.php';?>
+<?php
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+
+    <title>Login Form</title>
+</head>
+<body>
+<h1> Online Wed dress shop</h1>
+   <form method="POST" action="index.php">
+<table>
+
+<tr><td><a href="AdminRegistrationForm.php"> Register Now as Admin !</a></td>
+<td><a href="CustomerRegistration.php"> Register Now as Customer!</a></td></tr>
+<tr><td>Enter User Name:</td><td><input type="text" name="userid"  id="username"></td></tr>
+<tr><td>Enter User password: </td><td><input type="password" name="password"  id="password"></td></tr>
+<tr><td></td><td><button type="submit" name="done">Submit</button></td></tr>
+
+</table>
+
+
+
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
